@@ -13,10 +13,11 @@ class KeyDatabase
 	// This should be sufficient for our purposes as this is a temporary solution and the means of attack for this product
 	// would likely be social engineering or theft to get a valid code or opening the box to splice wiring.
 	private:
-		int numKeys = 2;
-		String validKeys[2] = {
+		int numKeys = 3;
+		String validKeys[3] = {
 			"A9873D79", // Company A
 			"B9873D79", // Company B
+			"B987", // Company C
 		};
 	
 	public:
